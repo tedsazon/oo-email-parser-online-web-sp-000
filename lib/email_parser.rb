@@ -5,6 +5,11 @@
 class EmailParser
   attr_accessor :csv
 
+  @@all = []
+
+  def initialize(csv)
+    @csv = csv
+
   def parse(csv)
     csv.split(/)
   end
