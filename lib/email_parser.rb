@@ -10,8 +10,9 @@ class EmailParser
   def initialize(csv)
     @csv = csv
   end
-  #def parse(csv)
-  #  csv.split(/)
-  #end
+
+  def parse(csv)
+    csv.split(/)
+  end
 
 end
