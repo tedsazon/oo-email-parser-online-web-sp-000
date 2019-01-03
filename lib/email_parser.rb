@@ -9,7 +9,7 @@ class EmailParser
     @csv = csv
   end
 
-  def parse(csv)
+  def parse
     csv.split(/, | /).uniq
   end
 
